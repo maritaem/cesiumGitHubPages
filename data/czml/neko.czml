@@ -36,7 +36,7 @@
             "cartographicDegrees": [
                 139.699937 , 
                 35.667253 ,
-                1809
+                3999
             ]
         },
         "label": {
@@ -74,8 +74,8 @@
                     139.699937,
                     35.667253,
                     3999,
-                    138.712865,
-                    35.3463,
+                    139.699937 ,
+                    35.667253,
                     0
                 ]
             },
@@ -108,7 +108,7 @@
                 ]
             },
             "horizontalOrigin": "CENTER",
-            "image": "http://furuhashilab.com/temp/maritaem.png",
+            "image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
             "scale": 0.6,
             "color": {
                 "rgba": [
@@ -125,7 +125,7 @@
             "cartographicDegrees": [
                 139.751984 , 
                 35.706595 ,
-                1809
+                3999
             ]
         },
         "label": {
@@ -162,7 +162,7 @@
                 "cartographicDegrees": [
                     139.751984,
                     35.706595 ,
-                    1800,
+                    3999,
                     139.751984,
                     35.706595 ,
                     0
@@ -197,7 +197,7 @@
                 ]
             },
             "horizontalOrigin": "CENTER",
-            "image": "http://furuhashilab.com/temp/maritaem.png",
+            "image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
             "scale": 0.6,
             "color": {
                 "rgba": [
@@ -214,7 +214,7 @@
             "cartographicDegrees": [
                 139.630737 ,
                 35.894665 ,
-                1809
+                3999
             ]
         },
         "label": {
@@ -251,7 +251,7 @@
                 "cartographicDegrees": [
                     139.630737,
                     35.894665,
-                    1800,
+                    3999,
                     139.630737,
                     35.894665,
                     0
@@ -286,7 +286,7 @@
                 ]
             },
             "horizontalOrigin": "CENTER",
-            "image": "http://furuhashilab.com/temp/maritaem.png",
+            "image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
             "scale": 0.6,
             "color": {
                 "rgba": [
@@ -303,7 +303,7 @@
             "cartographicDegrees": [
                 139.620223 ,
                 35.512300 , 
-                1809
+                3999
             ]
         },
         "label": {
@@ -340,7 +340,7 @@
                 "cartographicDegrees": [
                     139.620223 ,
                     35.512300,
-                    1800,
+                    3999,
                     139.620223 ,
                     35.512300,
                     0
@@ -375,7 +375,7 @@
                 ]
             },
             "horizontalOrigin": "CENTER",
-            "image": "http://furuhashilab.com/temp/maritaem.png",
+            "image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
             "scale": 0.6,
             "color": {
                 "rgba": [
@@ -392,7 +392,7 @@
             "cartographicDegrees": [
                139.749827 ,
                35.693395 ,
-               1809
+               3999
             ]
         },
         "label": {
@@ -429,7 +429,7 @@
                 "cartographicDegrees": [
                     139.749827,
                     35.693395,
-                    1800,
+                    3999,
                     139.749827,
                     35.693395,
                     0
