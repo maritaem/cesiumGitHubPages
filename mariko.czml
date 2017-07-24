@@ -1,293 +1,453 @@
-[ 
-{ 
-"id": "document", 
-"name": "neko", 
-"version": "1.0" 
-},
-"id":"neko1",
-"availability": "2014-07-21T09:00:00+09:00/2017-05-05T23:59:59+09:00",
-"name": "ネコ",
-"description": "<p class=\"date\">2014.7.21 09:00</p>",
-"billboard": {
-"scaleByDistance": {
-"nearFarScalar": [
-15000,
-1,
-200000,
-0
+[
+    {
+        "id": "document",
+        "name": "neko",
+        "version": "1.0"
+    },
+    {
+        "id": "neko1",
+        "availability": "2014-07-21T09:00:00+09:00/2017-05-05T23:59:59+09:00",
+        "name": "国立代々木競技場",
+        "description": "<p class=\"date\">2014.7.21 09:00</p>",
+        "billboard": {
+            "scaleByDistance": {
+                "nearFarScalar": [
+                    15000,
+                    1,
+                    200000,
+                    0
+                ]
+            },
+            "horizontalOrigin": "CENTER",
+            "image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
+            "scale": 0.6,
+            "color": {
+                "rgba": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            "show": "true",
+            "verticalOrigin": "BOTTOM"
+        },
+        "position": {
+            "cartographicDegrees": [
+                139.699937 , 
+                35.667253 ,
+                3999
+            ]
+        },
+        "label": {
+            "translucencyByDistance": {
+                "nearFarScalar": [
+                    10000,
+                    1,
+                    80000,
+                    0
+                ]
+            },
+            "fillColor": {
+                "rgba": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            "pixelOffset": {
+                "cartesian2": [
+                    0,
+                    10
+                ]
+            },
+            "font": "8pt Sans-Serif",
+            "verticalOrigin": "BOTTOM",
+            "style": "FILL",
+            "text": "国立代々木競技場"
+        },
+        "polyline": {
+            "width": 1,
+            "positions": {
+                "cartographicDegrees": [
+                    139.699937,
+                    35.667253,
+                    3999,
+                    139.699937 ,
+                    35.667253,
+                    0
+                ]
+            },
+            "material": {
+                "solidColor": {
+                    "color": {
+                        "rgba": [
+                            255,
+                            0,
+                            0,
+                            64
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "neko2",
+        "availability": "2014-08-02T12:50:00+09:00/2017-05-05T23:59:59+09:00",
+        "name": "東京ドーム",
+        "description": "<p class=\"date\">2014.8.2 12:50</p>",
+        "billboard": {
+            "scaleByDistance": {
+                "nearFarScalar": [
+                    15000,
+                    1,
+                    200000,
+                    0
+                ]
+            },
+            "horizontalOrigin": "CENTER",
+            "image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
+            "scale": 0.6,
+            "color": {
+                "rgba": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            "show": "true",
+            "verticalOrigin": "BOTTOM"
+        },
+        "position": {
+            "cartographicDegrees": [
+                139.751984 , 
+                35.706595 ,
+                3999
+            ]
+        },
+        "label": {
+            "translucencyByDistance": {
+                "nearFarScalar": [
+                    10000,
+                    1,
+                    80000,
+                    0
+                ]
+            },
+            "fillColor": {
+                "rgba": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            "pixelOffset": {
+                "cartesian2": [
+                    0,
+                    10
+                ]
+            },
+            "font": "8pt Sans-Serif",
+            "verticalOrigin": "BOTTOM",
+            "style": "FILL",
+            "text": "東京ドーム"
+        },
+        "polyline": {
+            "width": 1,
+            "positions": {
+                "cartographicDegrees": [
+                    139.751984,
+                    35.706595 ,
+                    3999,
+                    139.751984,
+                    35.706595 ,
+                    0
+                ]
+            },
+            "material": {
+                "solidColor": {
+                    "color": {
+                        "rgba": [
+                            255,
+                            0,
+                            0,
+                            64
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "neko3",
+        "availability": "2014-11-09T08:30:00+09:00/2017-05-05T23:59:59+09:00",
+        "name": "さいたまスーパーアリーナ",
+        "description": "<p class=\"date\">2014.11.9 08:30</p>",
+        "billboard": {
+            "scaleByDistance": {
+                "nearFarScalar": [
+                    15000,
+                    1,
+                    200000,
+                    0
+                ]
+            },
+            "horizontalOrigin": "CENTER",
+            "image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
+            "scale": 0.6,
+            "color": {
+                "rgba": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            "show": "true",
+            "verticalOrigin": "BOTTOM"
+        },
+        "position": {
+            "cartographicDegrees": [
+                139.630737 ,
+                35.894665 ,
+                3999
+            ]
+        },
+        "label": {
+            "translucencyByDistance": {
+                "nearFarScalar": [
+                    10000,
+                    1,
+                    80000,
+                    0
+                ]
+            },
+            "fillColor": {
+                "rgba": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            "pixelOffset": {
+                "cartesian2": [
+                    0,
+                    10
+                ]
+            },
+            "font": "8pt Sans-Serif",
+            "verticalOrigin": "BOTTOM",
+            "style": "FILL",
+            "text": "さいたまスーパーアリーナ"
+        },
+        "polyline": {
+            "width": 1,
+            "positions": {
+                "cartographicDegrees": [
+                    139.630737,
+                    35.894665,
+                    3999,
+                    139.630737,
+                    35.894665,
+                    0
+                ]
+            },
+            "material": {
+                "solidColor": {
+                    "color": {
+                        "rgba": [
+                            255,
+                            0,
+                            0,
+                            64
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "neko4",
+        "availability": "2014-11-22T19:20:00+09:00/2017-05-05T23:59:59+09:00",
+        "name": "横浜アリーナ",
+        "description": "<p class=\"date\">2014.11.22 19:20</p>",
+        "billboard": {
+            "scaleByDistance": {
+                "nearFarScalar": [
+                    15000,
+                    1,
+                    200000,
+                    0
+                ]
+            },
+            "horizontalOrigin": "CENTER",
+            "image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
+            "scale": 0.6,
+            "color": {
+                "rgba": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            "show": "true",
+            "verticalOrigin": "BOTTOM"
+        },
+        "position": {
+            "cartographicDegrees": [
+                139.620223 ,
+                35.512300 , 
+                3999
+            ]
+        },
+        "label": {
+            "translucencyByDistance": {
+                "nearFarScalar": [
+                    10000,
+                    1,
+                    80000,
+                    0
+                ]
+            },
+            "fillColor": {
+                "rgba": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            "pixelOffset": {
+                "cartesian2": [
+                    0,
+                    10
+                ]
+            },
+            "font": "8pt Sans-Serif",
+            "verticalOrigin": "BOTTOM",
+            "style": "FILL",
+            "text": "横浜アリーナ"
+        },
+        "polyline": {
+            "width": 1,
+            "positions": {
+                "cartographicDegrees": [
+                    139.620223 ,
+                    35.512300,
+                    3999,
+                    139.620223 ,
+                    35.512300,
+                    0
+                ]
+            },
+            "material": {
+                "solidColor": {
+                    "color": {
+                        "rgba": [
+                            255,
+                            0,
+                            0,
+                            64
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "neko5",
+        "availability": "2014-12-22T21:00:00+09:00/2017-05-05T23:59:59+09:00",
+        "name": "日本武道館",
+        "description": "<p class=\"date\">2014.12.22 21:00</p>",
+        "billboard": {
+            "scaleByDistance": {
+                "nearFarScalar": [
+                    15000,
+                    1,
+                    200000,
+                    0
+                ]
+            },
+            "horizontalOrigin": "CENTER",
+            "image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
+            "scale": 0.6,
+            "color": {
+                "rgba": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            "show": "true",
+            "verticalOrigin": "BOTTOM"
+        },
+        "position": {
+            "cartographicDegrees": [
+               139.749827 ,
+               35.693395 ,
+               3999
+            ]
+        },
+        "label": {
+            "translucencyByDistance": {
+                "nearFarScalar": [
+                    10000,
+                    1,
+                    80000,
+                    0
+                ]
+            },
+            "fillColor": {
+                "rgba": [
+                    255,
+                    255,
+                    255,
+                    255
+                ]
+            },
+            "pixelOffset": {
+                "cartesian2": [
+                    0,
+                    10
+                ]
+            },
+            "font": "8pt Sans-Serif",
+            "verticalOrigin": "BOTTOM",
+            "style": "FILL",
+            "text": "日本武道館"
+        },
+        "polyline": {
+            "width": 1,
+            "positions": {
+                "cartographicDegrees": [
+                    139.749827,
+                    35.693395,
+                    3999,
+                    139.749827,
+                    35.693395,
+                    0
+                ]
+            },
+            "material": {
+                "solidColor": {
+                    "color": {
+                        "rgba": [
+                            255,
+                            0,
+                            0,
+                            64
+                        ]
+                    }
+                }
+            }
+        }
+    }
+    
 ]
-},
-"horizontalOrigin": "CENTER",
-"image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
-"scale": 0.6,
-"color": {
-"rgba": [
-255,
-255,
-255,
-255
-]
-},
-"show": "true",
-"verticalOrigin": "BOTTOM"
-},
-"position": {
-"cartographicDegrees": [
-139.69993735.6672533999 ] 
-}, 
-"label": { 
-"translucencyByDistance": { 
-"nearFarScalar": [ 
-10000, 
-1, 
-80000, 
-0 
-] 
-}, 
-"fillColor": { 
-"rgba": [ 
-255, 
-255, 
-255, 
-255 
-] 
-}, 
-"pixelOffset": { 
-"cartesian2": [ 
-0, 
-10 
-] 
-}, 
-"font": "8pt Sans-Serif", 
-"verticalOrigin": "BOTTOM", 
-"style": "FILL",
-"text":"国立代々木競技場""id":"neko2",
-
-"availability": "2014-07-21T09:00:00+09:00/2017-05-05T23:59:59+09:00",
-"name": "ネコ",
-"description": "<p class=\"date\">2014.7.21 09:00</p>",
-"billboard": {
-"scaleByDistance": {
-"nearFarScalar": [
-15000,
-1,
-200000,
-0
-]
-},
-"horizontalOrigin": "CENTER",
-"image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
-"scale": 0.6,
-"color": {
-"rgba": [
-255,
-255,
-255,
-255
-]
-},
-"show": "true",
-"verticalOrigin": "BOTTOM"
-},
-"position": {
-"cartographicDegrees": [
-139.75198435.7065953999 ] 
-}, 
-"label": { 
-"translucencyByDistance": { 
-"nearFarScalar": [ 
-10000, 
-1, 
-80000, 
-0 
-] 
-}, 
-"fillColor": { 
-"rgba": [ 
-255, 
-255, 
-255, 
-255 
-] 
-}, 
-"pixelOffset": { 
-"cartesian2": [ 
-0, 
-10 
-] 
-}, 
-"font": "8pt Sans-Serif", 
-"verticalOrigin": "BOTTOM", 
-"style": "FILL",
-"text":"東京ドーム""id":"neko3",
-"availability": "2014-07-21T09:00:00+09:00/2017-05-05T23:59:59+09:00",
-"name": "ネコ",
-"description": "<p class=\"date\">2014.7.21 09:00</p>",
-"billboard": {
-"scaleByDistance": {
-"nearFarScalar": [
-15000,
-1,
-200000,
-0
-]
-},
-"horizontalOrigin": "CENTER",
-"image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
-"scale": 0.6,
-"color": {
-"rgba": [
-255,
-255,
-255,
-255
-]
-},
-"show": "true",
-"verticalOrigin": "BOTTOM"
-},
-"position": {
-"cartographicDegrees": [
-139.63073735.8946653999 ] 
-}, 
-"label": { 
-"translucencyByDistance": { 
-"nearFarScalar": [ 
-10000, 
-1, 
-80000, 
-0 
-] 
-}, 
-"fillColor": { 
-"rgba": [ 
-255, 
-255, 
-255, 
-255 
-] 
-}, 
-"pixelOffset": { 
-"cartesian2": [ 
-0, 
-10 
-] 
-}, 
-"font": "8pt Sans-Serif", 
-"verticalOrigin": "BOTTOM", 
-"style": "FILL",
-"text":"さいたまスーパーアリーナ""id":"neko4",
-"availability": "2014-07-21T09:00:00+09:00/2017-05-05T23:59:59+09:00",
-"name": "ネコ",
-"description": "<p class=\"date\">2014.7.21 09:00</p>",
-"billboard": {
-"scaleByDistance": {
-"nearFarScalar": [
-15000,
-1,
-200000,
-0
-]
-},
-"horizontalOrigin": "CENTER",
-"image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
-"scale": 0.6,
-"color": {
-"rgba": [
-255,
-255,
-255,
-255
-]
-},
-"show": "true",
-"verticalOrigin": "BOTTOM"
-},
-"position": {
-"cartographicDegrees": [
-139.62022335.51233999 ] 
-}, 
-"label": { 
-"translucencyByDistance": { 
-"nearFarScalar": [ 
-10000, 
-1, 
-80000, 
-0 
-] 
-}, 
-"fillColor": { 
-"rgba": [ 
-255, 
-255, 
-255, 
-255 
-] 
-}, 
-"pixelOffset": { 
-"cartesian2": [ 
-0, 
-10 
-] 
-}, 
-"font": "8pt Sans-Serif", 
-"verticalOrigin": "BOTTOM", 
-"style": "FILL",
-"text":"横浜アリーナ""id":"neko5",
-"availability": "2014-07-21T09:00:00+09:00/2017-05-05T23:59:59+09:00",
-"name": "ネコ",
-"description": "<p class=\"date\">2014.7.21 09:00</p>",
-"billboard": {
-"scaleByDistance": {
-"nearFarScalar": [
-15000,
-1,
-200000,
-0
-]
-},
-"horizontalOrigin": "CENTER",
-"image": "https://raw.githubusercontent.com/furuhashilab/www_furuhashiab_com/gh-pages/temp/maritaem_t.png",
-"scale": 0.6,
-"color": {
-"rgba": [
-255,
-255,
-255,
-255
-]
-},
-"show": "true",
-"verticalOrigin": "BOTTOM"
-},
-"position": {
-"cartographicDegrees": [
-139.74982735.6933953999 ] 
-}, 
-"label": { 
-"translucencyByDistance": { 
-"nearFarScalar": [ 
-10000, 
-1, 
-80000, 
-0 
-] 
-}, 
-"fillColor": { 
-"rgba": [ 
-255, 
-255, 
-255, 
-255 
-] 
-}, 
-"pixelOffset": { 
-"cartesian2": [ 
-0, 
-10 
-] 
-}, 
-"font": "8pt Sans-Serif", 
-"verticalOrigin": "BOTTOM", 
-"style": "FILL",
-"text":"日本武道館"]
